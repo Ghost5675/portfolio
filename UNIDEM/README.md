@@ -17,13 +17,13 @@ This project is part of my portfolio to demonstrate automation skills using Sele
 ## Requirements
 
 - Python 3.x
-- Libraries: `selenium`, `pandas`, `webdriver-manager` (for ChromeDriver, though not explicitly used in code; install via `pip install webdriver-manager` if needed)
+- Libraries: `pandas`, `selenium`, `openpyxl`
 - Chrome browser and compatible ChromeDriver
 - An Excel file (.xlsx) with columns for student names, student phones, and optional parent phones.
 
 Install dependencies:
 ```
-pip install selenium pandas
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -85,13 +85,13 @@ MIT License. Feel free to use and modify.
 ## Требования
 
 - Python 3.x
-- Библиотеки: `selenium`, `pandas`, `webdriver-manager` (для ChromeDriver, если нужно; установите через `pip install webdriver-manager`)
+- Библиотеки: `pandas`, `selenium`, `openpyxl`
 - Браузер Chrome и совместимый ChromeDriver
 - Файл Excel (.xlsx) с колонками для имен студентов, телефонов студентов и опциональных телефонов родителей.
 
 Установка зависимостей:
 ```
-pip install selenium pandas
+pip install -r requirements.txt
 ```
 
 ## Использование
