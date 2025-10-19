@@ -1,6 +1,5 @@
 # Chess.com Profile Bio Updater
 
-## English Description
 This Python script automates updating a Telegram profile bio with a user's chess.com profile information, specifically their rank and rating in the Kazakhstan (KZ) rapid leaderboard. It uses the `telethon` library to interact with the Telegram API and `selenium` to scrape data from the chess.com leaderboard. The script navigates the leaderboard pages, finds the user's profile, extracts their rank and rating, and updates the Telegram bio with this information.
 
 ### Features
@@ -28,7 +27,6 @@ This Python script automates updating a Telegram profile bio with a user's chess
 - The script assumes the leaderboard structure and class names remain consistent with chess.com's website.
 - Handle Telegram API rate limits and authentication prompts as needed.
 
-## Описание на русском
 Этот Python-скрипт автоматизирует обновление биографии профиля в Telegram, добавляя информацию о профиле пользователя на chess.com, в частности, его ранг и рейтинг в таблице лидеров по рапиду в Казахстане (KZ). Скрипт использует библиотеку `telethon` для взаимодействия с API Telegram и `selenium` для парсинга данных с сайта chess.com. Он переходит по страницам таблицы лидеров, находит профиль пользователя, извлекает его ранг и рейтинг, а затем обновляет биографию в Telegram.
 
 ### Особенности
